@@ -1,4 +1,4 @@
-# lts-monolithic-ddos-detection
+# PS1-monolithic-ddos-detection
 
 A **single-machine, real-time DDoS detection system** using Scapy for live packet capture and a trained Random Forest classifier for threat classification. Built during **Practice School I (PS-1)** as the core ML engineering deliverable.
 
@@ -9,11 +9,11 @@ A **single-machine, real-time DDoS detection system** using Scapy for live packe
 This is the **second phase** of the LTS project series — a self-contained monolithic implementation where packet capture, feature extraction, and ML inference all run on one machine:
 
 ```
-lts-coursework-experiments       (early classifiers and Scapy experiments)
+PS1-coursework-experiments       (early classifiers and Scapy experiments)
         ↓
-lts-monolithic-ddos-detection   ← you are here
+PS1-monolithic-ddos-detection   ← you are here
         ↓
-lts-distributed-ddos-detection   (split into capture agents + central inference)
+PS1-distributed-ddos-detection   (split into capture agents + central inference)
 
 healthcare-prediction            (separate parallel project)
 ```
@@ -89,6 +89,6 @@ The code resolves model/data paths dynamically. Update the path constants if run
 ---
 
 ## See Also
-- [`lts-coursework-experiments`](https://github.com/nikunj-gupta-1/lts-coursework-experiments) — precursor assignments and Scapy experiments
-- [`lts-distributed-ddos-detection`](https://github.com/nikunj-gupta-1/lts-distributed-ddos-detection) — distributed multi-device version of this system
+- [`PS1-coursework-experiments`](https://github.com/nikunj-gupta-1/PS1-coursework-experiments) — precursor assignments and Scapy experiments
+- [`PS1-distributed-ddos-detection`](https://github.com/nikunj-gupta-1/PS1-distributed-ddos-detection) — distributed multi-device version of this system
 - [`healthcare-prediction`](https://github.com/nikunj-gupta-1/healthcare-prediction) — separate Streamlit ML dashboard
