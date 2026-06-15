@@ -1,0 +1,326 @@
+{
+  "monitoring_session": {
+    "timestamp": "2025-09-21T21:02:52.961095",
+    "total_packets": 1075,
+    "total_flows": 43,
+    "confidence_threshold": 0.85,
+    "flow_timeout": 300
+  },
+  "statistics": {
+    "packets_processed": 1075,
+    "flows_analyzed": 0,
+    "alerts_generated": 18,
+    "benign_flows": 954,
+    "attack_flows": 18,
+    "filtered_broadcasts": 110,
+    "low_confidence_filtered": 0
+  },
+  "alerts": [
+    {
+      "timestamp": "2025-09-21T21:02:12.930236",
+      "flow_key": "(('10.30.75.77', 64063), ('104.109.251.65', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9997569075877673,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "104.109.251.65",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.00015401840209960938,
+        "total_packets": 3,
+        "total_bytes": 3726,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 3726000.0
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:13.038070",
+      "flow_key": "(('10.30.75.77', 64063), ('104.109.251.65', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9996193791630169,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "104.109.251.65",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.09552907943725586,
+        "total_packets": 4,
+        "total_bytes": 4968,
+        "packets_per_second": 41.87206684669485,
+        "bytes_per_second": 52005.107023595
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:15.882750",
+      "flow_key": "(('10.30.75.77', 55195), ('142.250.203.174', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9997569075877673,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "142.250.203.174",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.000171661376953125,
+        "total_packets": 3,
+        "total_bytes": 3726,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 3726000.0
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:15.990459",
+      "flow_key": "(('10.30.75.77', 55195), ('142.250.203.174', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9996217617131592,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "142.250.203.174",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.10997676849365234,
+        "total_packets": 4,
+        "total_bytes": 4968,
+        "packets_per_second": 36.37131782273519,
+        "bytes_per_second": 45173.176735837114
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:33.949675",
+      "flow_key": "(('10.30.75.77', 51466), ('34.255.39.199', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9997569075877673,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "34.255.39.199",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.00016188621520996094,
+        "total_packets": 3,
+        "total_bytes": 3726,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 3726000.0
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:34.062722",
+      "flow_key": "(('10.30.75.77', 51466), ('34.255.39.199', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9996217617131592,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "34.255.39.199",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.1110081672668457,
+        "total_packets": 4,
+        "total_bytes": 4968,
+        "packets_per_second": 36.03338473631986,
+        "bytes_per_second": 44753.46384250927
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:42.482477",
+      "flow_key": "(('10.30.75.77', 50719), ('17.248.224.13', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9997569075877673,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "17.248.224.13",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.00016808509826660156,
+        "total_packets": 3,
+        "total_bytes": 3726,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 3726000.0
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:42.589312",
+      "flow_key": "(('10.30.75.77', 50719), ('17.248.224.13', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9996588933611493,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "17.248.224.13",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.08227109909057617,
+        "total_packets": 4,
+        "total_bytes": 4968,
+        "packets_per_second": 48.61974671805721,
+        "bytes_per_second": 60385.72542382705
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:42.699980",
+      "flow_key": "(('10.30.75.77', 0), ('17.248.224.13', 0), 1)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9225871406696663,
+      "source_ip": "17.248.224.13",
+      "destination_ip": "10.30.75.77",
+      "protocol": 1,
+      "flow_stats": {
+        "duration": 0.00047516822814941406,
+        "total_packets": 3,
+        "total_bytes": 1770,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 1770000.0
+      },
+      "risk_level": "LOW"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:42.804488",
+      "flow_key": "(('10.30.75.77', 0), ('17.248.224.13', 0), 1)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9226397981221234,
+      "source_ip": "17.248.224.13",
+      "destination_ip": "10.30.75.77",
+      "protocol": 1,
+      "flow_stats": {
+        "duration": 0.11014127731323242,
+        "total_packets": 4,
+        "total_bytes": 2360,
+        "packets_per_second": 36.31699302546075,
+        "bytes_per_second": 21427.02588502184
+      },
+      "risk_level": "LOW"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:42.916158",
+      "flow_key": "(('10.30.75.77', 59775), ('17.248.224.64', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9997569075877673,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "17.248.224.64",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.0001780986785888672,
+        "total_packets": 3,
+        "total_bytes": 3726,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 3726000.0
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:43.025295",
+      "flow_key": "(('10.30.75.77', 59775), ('17.248.224.64', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9996217617131592,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "17.248.224.64",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.11147785186767578,
+        "total_packets": 4,
+        "total_bytes": 4968,
+        "packets_per_second": 35.8815669030652,
+        "bytes_per_second": 44564.90609360697
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:43.120787",
+      "flow_key": "(('10.30.75.77', 52901), ('17.248.224.65', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9997569075877673,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "17.248.224.65",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.0001888275146484375,
+        "total_packets": 3,
+        "total_bytes": 3726,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 3726000.0
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:43.214282",
+      "flow_key": "(('10.30.75.77', 52901), ('17.248.224.65', 443), 17)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9996193791630169,
+      "source_ip": "10.30.75.77",
+      "destination_ip": "17.248.224.65",
+      "protocol": 17,
+      "flow_stats": {
+        "duration": 0.09529376029968262,
+        "total_packets": 4,
+        "total_bytes": 4968,
+        "packets_per_second": 41.975466047521714,
+        "bytes_per_second": 52133.52883102196
+      },
+      "risk_level": "HIGH"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:43.308537",
+      "flow_key": "(('10.30.75.77', 0), ('17.248.224.65', 0), 1)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9225871406696663,
+      "source_ip": "17.248.224.65",
+      "destination_ip": "10.30.75.77",
+      "protocol": 1,
+      "flow_stats": {
+        "duration": 0.0007927417755126953,
+        "total_packets": 3,
+        "total_bytes": 1770,
+        "packets_per_second": 3000.0,
+        "bytes_per_second": 1770000.0
+      },
+      "risk_level": "LOW"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:43.417783",
+      "flow_key": "(('10.30.75.77', 0), ('17.248.224.65', 0), 1)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9226294467821474,
+      "source_ip": "17.248.224.65",
+      "destination_ip": "10.30.75.77",
+      "protocol": 1,
+      "flow_stats": {
+        "duration": 0.09377694129943848,
+        "total_packets": 4,
+        "total_bytes": 2360,
+        "packets_per_second": 42.65440890450488,
+        "bytes_per_second": 25166.10125365788
+      },
+      "risk_level": "LOW"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:43.520282",
+      "flow_key": "(('10.30.75.77', 0), ('17.248.224.64', 0), 1)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9225164831220596,
+      "source_ip": "17.248.224.64",
+      "destination_ip": "10.30.75.77",
+      "protocol": 1,
+      "flow_stats": {
+        "duration": 0.20290303230285645,
+        "total_packets": 3,
+        "total_bytes": 1770,
+        "packets_per_second": 14.785387709347537,
+        "bytes_per_second": 8723.378748515048
+      },
+      "risk_level": "LOW"
+    },
+    {
+      "timestamp": "2025-09-21T21:02:43.628253",
+      "flow_key": "(('10.30.75.77', 0), ('17.248.224.64', 0), 1)",
+      "attack_type": "ATTACK",
+      "confidence": 0.9217871032073495,
+      "source_ip": "17.248.224.64",
+      "destination_ip": "10.30.75.77",
+      "protocol": 1,
+      "flow_stats": {
+        "duration": 0.3050670623779297,
+        "total_packets": 4,
+        "total_bytes": 2360,
+        "packets_per_second": 13.111871104080828,
+        "bytes_per_second": 7736.003951407689
+      },
+      "risk_level": "LOW"
+    }
+  ]
+}

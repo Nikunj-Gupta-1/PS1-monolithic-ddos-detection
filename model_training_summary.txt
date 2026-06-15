@@ -1,0 +1,12 @@
+DDoS Detection Model Training Summary
+==================================================
+
+Model Type: Binary Classification
+Test Accuracy: 0.9968 (99.67%)
+Cross-validation Mean: 0.9967
+Cross-validation Std: 0.0004
+Features Used: 25
+Training Samples: 80,000
+Test Samples: 20,000
+Classes: ['ATTACK', 'BENIGN']
+Selected Features: [' Average Packet Size', ' Avg Bwd Segment Size', ' Avg Fwd Segment Size', ' Bwd IAT Min', ' Bwd Packet Length Mean', ' Bwd Packet Length Min', ' Bwd Packet Length Std', ' Down/Up Ratio', ' Flow Duration', ' Flow Packets/s', ' Fwd Packet Length Max', ' Fwd Packet Length Mean', ' Fwd Packet Length Min', ' Fwd Packet Length Std', ' Min Packet Length', ' Packet Length Mean', ' Packet Length Std', ' Protocol', ' RST Flag Count', ' URG Flag Count', 'Bwd IAT Total', 'Bwd Packet Length Max', 'Flow Bytes/s', 'Fwd PSH Flags', 'Fwd Packets/s']
