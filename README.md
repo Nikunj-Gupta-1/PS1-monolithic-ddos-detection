@@ -74,15 +74,15 @@ python train.py
 
 ## Data and Models Not Included
 
-Raw datasets and trained model binaries are **not** in this repo. They live locally under `raw data collected for project/`:
+Raw datasets and trained model binaries are **not** in this repo (`.pkl` checkpoints were also removed locally to free disk space and can be easily re-trained from the dataset using `python train.py`, which regenerates `../raw data collected for project/optimized_ddos_model.pkl`):
 
-| File | Size | Used by |
+| File | Size | Used by / Notes |
 |---|---|---|
-| `CIC_DDoS2019_To_Use.csv` | 54 MB | `train.py` |
-| `CIC_DDoS2019_balanced_reduced.csv` | 43 MB | `reducer.py`, `random_sample_gen.py` |
-| `optimized_ddos_model.pkl` | 37 MB | `real_time_ddos_detection.py` |
-| `ddos_detection_model.pkl` | 255 MB | Earlier training iteration |
-| `improved_ddos_model.pkl` | 37 MB | Intermediate model |
+| `CIC_DDoS2019_To_Use.csv` | 54 MB | `train.py` (lives locally under `raw data collected for project/`) |
+| `CIC_DDoS2019_balanced_reduced.csv` | 43 MB | `reducer.py`, `random_sample_gen.py` (local `raw data collected for project/`) |
+| `optimized_ddos_model.pkl` | ~37 MB | `real_time_ddos_detection.py` (re-train via `python train.py`) |
+| `ddos_detection_model.pkl` | ~255 MB | Earlier training iteration (removed locally; re-trainable) |
+| `improved_ddos_model.pkl` | ~37 MB | Intermediate model (removed locally; re-trainable) |
 
 The code resolves model/data paths dynamically. Update the path constants if running outside the original layout.
 
